@@ -1,23 +1,69 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Elder Scrolls</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="index.html" title="">Home</a></li>
+				<li><a href="lore.html" title="">Lore</a></li>
+				<li><a href="games.html" title="">Games</a></li>
+				<li><a href="extended.html" title="">Extended Universe</a></li>
+				<li><a href="contact.html" title="">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="banner" class="container">
+		<div class="title">
+			<h2>The Elder Scrolls Universe</h2>
+			<span class="byline">Games, Books, Animations</span>
+		</div>
+		<ul class="actions">
+			<li><a href="https://www.youtube.com/watch?v=soKDyDjc3KQ" target="_blank" class="button">Look Inside</a></li>
+		</ul>
+	</div>
 </div>
+<div id="wrapper">
+	<div id="three-column" class="container">
+		<div class="title">
+			<h2>World of many possibilities</h2>
+			<span class="byline">Game of the Year. Every Year</span>
+		</div>
+		<div class="boxA">
+			<img src="images/morrowind.png">
+			<p>Elder Scrolls Morrowind. "Top 10 RPGs of all time" Award</p>
+			<a href="#" class="button button-alt">More Info</a>
+		</div>
+		<div class="boxB">
+			<img src="images/oblivion.png">
+			<p>Elder Scrolls Oblivion. VGA/VGX Best RPG of the Year Award</p>
+			<a href="#" class="button button-alt">More Info</a>
+		</div>
+		<div class="boxC">
+			<img src="images/skyrim.png">
+			<p> Elder Scrolls Skyrim. VGA/VGX Best RPG of the Year Award</p>
+			<a href="#" class="button button-alt">More Info</a>
+		</div>
+	</div>
+</div>
+<div id="welcome">
+	<div class="container">
+		<div class="title">
+			<h2>Useful Links and Social Media</h2>
+			<a target="_blank" href="https://www.facebook.com/Bethesda-Softworks-260402660661048/"><img width="30px" src="images/facebooklogo.png"> </a> <a target="_blank" href="https://twitter.com/bethesda?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img  width="30px" src="images/twitterlogo.png"></a></span>
+		</div>
+		<ul class="actions">
+			<li><a href="https://bethesda.net/en/dashboard" target="_blank" class="button">Developer Website</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
