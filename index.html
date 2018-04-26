@@ -66,5 +66,73 @@
 		</ul>
 	</div>
 </div>
+
+<!= <!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"/>
+			<title>Proodos</title>
+		</head>
+			<body>
+				<button id="tab1" onclick="writeText()">Tab 1</button>
+				<button id="tab2" onclick="showclock()">Tab 2</button>
+				<button id="tab3" onclick="show()">Tab 3</button>
+				
+				
+					
+					<input type="text" id="txt"/>
+					<div id="content1"></div>
+					<div id="content2"></div>
+				
+				
+				<script>
+					
+					var a=document.getElementById("txt");
+					var b=document.getElementById("content1");
+					var c=document.getElementById("content2");
+					a.style.display='none';
+					b.style.display='none';
+					c.style.display='none';
+					
+					function writeText()
+					{
+						a.style.display='block';
+						b.style.display='none';
+						c.style.display='none';
+					}
+					function showclock()
+					{
+						a.style.display='none';
+						b.style.display='block';
+						c.style.display='none';
+						clock();
+					}
+					
+					function clock()
+					{
+						var d=new Date();
+						var hours=d.getHours();
+						var minutes=d.getMinutes();
+						var seconds=d.getSeconds();
+						var t=document.getElementById("content1");
+						t.innerHTML=hours+":"+minutes+":"+seconds;
+						setInterval(clock,1000);
+					}
+					function show()
+					{
+						c.innerHTML=a.value;
+						a.style.display='none';
+						b.style.display='none';
+						c.style.display='block';
+					}
+				</script>
+				
+				
+				
+				
+			</body>
+			
+			
+	</html> ->
 </body>
 </html>
