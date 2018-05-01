@@ -5,6 +5,7 @@ body {
 }
 @keyframes zoomout {
 	100% {r:1500;}
+	100% {cx:1100;}
 }
 
 #main img{
