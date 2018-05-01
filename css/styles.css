@@ -1,0 +1,44 @@
+body {
+	background-color: black;
+}
+
+#main img{
+	height: 90%;
+	width: 90%;
+	margin-left: 100px;
+}
+
+.st0{
+	fill:none;stroke:#F4D100;stroke-width:35;stroke-miterlimit:10;
+}
+.st0:hover{
+	stroke:white;
+	stroke-width:35;
+	
+}
+	
+.st1{
+	fill:none;stroke:#E9447E;stroke-width:35;stroke-miterlimit:10;
+}
+.st1:hover{
+	stroke:white;
+	stroke-width:35;
+}
+.st2{
+	fill:none;stroke:#53C3EF;stroke-width:20;stroke-miterlimit:10;
+}
+.st2:hover{
+	stroke:white;
+	stroke-width:20;
+}
+.st3{
+	fill:none;stroke:#E9447E;stroke-width:50;stroke-miterlimit:10;
+}
+.st3:hover{
+	stroke:white;
+	stroke-width:50;
+}
+
+svg {
+	margin-left: 100px;
+}
