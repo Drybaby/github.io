@@ -2,7 +2,7 @@ body {
 	background-color: black;
 }
 @keyframes zoomout {
-	100% {r:1000;}
+	100% {r:1500;}
 }
 
 #main img{
