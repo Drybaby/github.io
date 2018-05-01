@@ -1,6 +1,9 @@
 body {
 	background-color: black;
 }
+@keyframes zoomout {
+	100% {r:1000;}
+}
 
 #main img{
 	height: 90%;
@@ -14,7 +17,11 @@ body {
 .st0:hover{
 	stroke:white;
 	stroke-width:35;
-	
+}
+
+.st0:active{
+	animation-name: zoomout;
+	animation-duration: 2s;
 }
 	
 .st1{
