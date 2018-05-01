@@ -1,4 +1,4 @@
-animationClick('#circle1', 'fadeOut');
+animationClick('#circle1', 'zoomIn');
 
 function animationClick(element, animation){
   element = $(element);
