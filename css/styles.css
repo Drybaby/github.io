@@ -4,6 +4,7 @@ body {
 	padding: 0px;
 }
 @keyframes zoomout {
+	30% {cx:1100;}
 	100% {r:1500;}
 }
 @keyframes centerin {
@@ -25,10 +26,12 @@ body {
 }
 
 .st0:active{
-	animation-name: centerin , zoomout;
-	animation-delay: 0s , 2s;
-	animation-duration: 2s , 3s;
-	animation-iteration-count: 1, 1;
+	animation-name: zoomout;
+	animation-duration: 3s;
+	//animation-name: centerin , zoomout;
+	//animation-delay: 0s , 2s;
+	//animation-duration: 2s , 3s;
+	//animation-iteration-count: 1, 1;
 }
 
 .st1{
