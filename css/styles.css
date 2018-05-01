@@ -7,7 +7,7 @@ body {
 	100% {r:1500;}
 }
 @keyframes centerin {
-	100% {cx:1100;}
+	100% {cx:1200;}
 }
 
 #main img{
@@ -25,12 +25,9 @@ body {
 }
 
 .st0:active{
-	animation: centerin 1s;
+	animation: centerin 1s, zoomout 5;
 }
-	
-#circle1:active{
-	animation: zoomout 2s;
-	animation-delay: 1s;
+
 }
 .st1{
 	fill:none;stroke:#E9447E;stroke-width:35;stroke-miterlimit:10;
