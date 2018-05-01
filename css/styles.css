@@ -4,8 +4,9 @@ body {
 	padding: 0px;
 }
 @keyframes zoomout {
-	30% {cx:1100;}
-	100% {r:1500;}
+	30% {cx:1150;}
+	90% {r:2000;}
+	100% {display:none;}
 }
 @keyframes centerin {
 	100% {cx:1100;}
