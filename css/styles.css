@@ -25,7 +25,7 @@ body {
 }
 
 .st0:active{
-	animation: centerin 1s, zoomout 5;
+	animation: centerin 1s, zoomout 5s;
 }
 
 }
