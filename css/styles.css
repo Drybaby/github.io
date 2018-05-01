@@ -25,9 +25,13 @@ body {
 }
 
 .st0:active{
-	animation: centerin 1s, zoomout 2s;
+	animation: centerin 1s;
 }
 	
+#circle1{
+	animation: zoomout 2s;
+	animation-delay: 1s;
+}
 .st1{
 	fill:none;stroke:#E9447E;stroke-width:35;stroke-miterlimit:10;
 }
