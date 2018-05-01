@@ -14,7 +14,7 @@ function animationClick(element, animation){
 };
 
 $('#circle').click(function(){ 
-            $('#circle1').toggleClass("animated hinge",function(){
+            $('#circle1').toggleClass("animated zoomIn",function(){
                $(this).remove();
             });
         });   
