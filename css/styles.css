@@ -28,7 +28,7 @@ body {
 	animation: centerin 1s;
 }
 	
-#circle1{
+#circle1:circle{
 	animation: zoomout 2s;
 	animation-delay: 1s;
 }
