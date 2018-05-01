@@ -1,5 +1,7 @@
 body {
 	background-color: black;
+	margin: 0px;
+	padding: 0px;
 }
 @keyframes zoomout {
 	100% {r:1500;}
@@ -8,7 +10,7 @@ body {
 #main img{
 	height: 90%;
 	width: 90%;
-	margin-left: 100px;
+	margin: auto;
 }
 
 .st0{
