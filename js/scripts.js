@@ -47,7 +47,7 @@ function animationRevClick(element){
 	element = $(element);
 	element.click(
 	function(){
-		#circle1.addClass(' animateback ');
+		document.#circle1.classList.add("animateback");
 		}
 	);
 }
