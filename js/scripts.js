@@ -56,6 +56,7 @@ function animationRevClick(element){
 	function(){
 		c1.style.display='block';
 		c1.classList.add("animateback");
+		bhome.style.display="none";
 		window.setTimeout(function(){
 			c2.style.display="block";
 			c3.style.display="block";
