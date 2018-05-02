@@ -45,9 +45,10 @@ function animationClick(element, animation){
 
 function animationRevClick(element){
 	element = $(element);
+	var butt = document.getElementById("backbutton");
 	element.click(
 	function(){
-		document.#circle1.classList.add("animateback");
+		backbutton.classList.add("animateback");
 		}
 	);
 }
