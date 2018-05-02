@@ -4,6 +4,7 @@ animationClick('#circle3', 'zoomIn');
 animationClick('#circle4', 'zoomIn');
 animationClick('#circle5', 'zoomIn');
 animationClick('#circle6', 'zoomIn');
+animationRevClick('#backbutton');
 
 var bhome = document.getElementById("backbutton");
 bhome.style.display='none';
@@ -22,9 +23,7 @@ function animationClick(element, animation){
 	var c4 = document.getElementById("circle4");
 	var c5 = document.getElementById("circle5");
 	var c6 = document.getElementById("circle6");
-	
-	
-	
+
     element = $(element);
     element.click(
     function() {
@@ -43,8 +42,12 @@ function animationClick(element, animation){
     }
   );
 };
-
-
+function animationRevClick(element){
+	element = $(element);
+	element.click(
+	function(){
+		element.addClass(' animateback ');
+	})}
 $('#circle').click(function(){ 
             $('#circle1').toggleClass("animated zoomIn",function(){
                $(this).remove();
