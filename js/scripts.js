@@ -64,7 +64,7 @@ function animationRevClick(element){
 			c4.style.display="block";
 			c5.style.display="block";
 			c6.style.display="block";
-			bhome.style.display="block";
+			
 		}
 
 		, 3000);
