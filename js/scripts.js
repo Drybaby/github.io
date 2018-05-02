@@ -42,11 +42,12 @@ function animationClick(element, animation){
     }
   );
 };
+
 function animationRevClick(element){
 	element = $(element);
 	element.click(
 	function(){
-		element.addClass(' animateback ');
+		#circle1.addClass(' animateback ');
 		}
 	);
 }
