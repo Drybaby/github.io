@@ -58,7 +58,7 @@ function animationRevClick(element){
 		c1.classList.add("animateback");
 		bhome.style.display="none";
 		window.setTimeout(function(){
-			document.body.classList.add("outyellow"); 
+			document.body.classList.remove("outyellow"); 
 			c2.style.display="block";
 			c3.style.display="block";
 			c4.style.display="block";
