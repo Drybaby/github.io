@@ -95,3 +95,7 @@ svg{
 	animation-name: opacityslide;
 	animation-duration:1s;
 }
+
+.hiddenbutton{
+	display: none;
+}
