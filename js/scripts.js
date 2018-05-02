@@ -54,6 +54,7 @@ function animationRevClick(element){
 	var butt = document.getElementById("backbutton");
 	element.click(
 	function(){
+		c1.style.display='block';
 		c1.classList.add("animateback");
 		}
 	);
