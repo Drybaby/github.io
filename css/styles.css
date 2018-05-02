@@ -37,6 +37,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    position: absolute;
     font-size: 16px;
 }
 .st0{
