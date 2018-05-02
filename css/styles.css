@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	margin: 0px;
 	padding: 0px;
+	z-index: -1;
 }
 @keyframes zoomout {
 	30% {cx:1200;}
@@ -37,7 +38,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    position: absolute;
+    z-index: 1;
     font-size: 16px;
 }
 .st0{
