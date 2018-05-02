@@ -5,6 +5,7 @@ animationClick('#circle4', 'zoomIn');
 animationClick('#circle5', 'zoomIn');
 animationClick('#circle6', 'zoomIn');
 
+bhome.style.display='none';
 var outyellow=document.getElementById("outyellow");
 var outcyan=document.getElementById("outcyan");
 var outpink=document.getElementById("outpink");
@@ -20,6 +21,7 @@ function animationClick(element, animation){
 	var c4 = document.getElementById("circle4");
 	var c5 = document.getElementById("circle5");
 	var c6 = document.getElementById("circle6");
+	var bhome = document.getElementByClass("button");
 	
 	
     element = $(element);
@@ -35,6 +37,7 @@ function animationClick(element, animation){
 		  c4.style.display='none';
 		  c5.style.display='none';
 		  c6.style.display='none';
+	          bhome.style.display='block';
       }, 1000);
     }
   );
