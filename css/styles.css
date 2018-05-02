@@ -23,6 +23,12 @@ body {
 	animation-duration: 3s;
 }
 
+.animateback{
+	animation-name: zoomout;
+	animation-duration: 3s;
+	animation-direction: reverse;
+}
+
 .st0{
 	fill:none;stroke:#F4D100;stroke-width:35;stroke-miterlimit:10;
 }
