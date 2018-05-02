@@ -44,11 +44,17 @@ function animationClick(element, animation){
 };
 
 function animationRevClick(element){
+	var c1 = document.getElementById("circle1");
+	var c2 = document.getElementById("circle2");
+	var c3 = document.getElementById("circle3");
+	var c4 = document.getElementById("circle4");
+	var c5 = document.getElementById("circle5");
+	var c6 = document.getElementById("circle6");
 	element = $(element);
 	var butt = document.getElementById("backbutton");
 	element.click(
 	function(){
-		backbutton.classList.add("animateback");
+		c1.classList.add("animateback");
 		}
 	);
 }
