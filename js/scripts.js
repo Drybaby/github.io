@@ -64,7 +64,7 @@ function animationRevClick(element){
 			c6.style.display="block";
 		}
 
-		, 1000);
+		, 3000);
 		}
 	);
 }
