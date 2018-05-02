@@ -56,6 +56,15 @@ function animationRevClick(element){
 	function(){
 		c1.style.display='block';
 		c1.classList.add("animateback");
+		window.setTimeout(function(){
+			c2.style.display="block";
+			c3.style.display="block";
+			c4.style.display="block";
+			c5.style.display="block";
+			c6.style.display="block";
+		}
+
+		, 1000);
 		}
 	);
 }
