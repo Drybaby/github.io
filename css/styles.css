@@ -72,7 +72,7 @@ svg{
 	100%{opacity:0;}
 }
 
-.animatereverse{
+.animateopacity{
 	animation-name: opacityslide;
 	animation-duration: 1s;
 }
