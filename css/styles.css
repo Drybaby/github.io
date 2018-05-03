@@ -70,7 +70,11 @@ svg{
 @keyframes opacityslide{
 	0% {opacity:1;}
 	100%{opacity:0;}
-	animation-duration:1s;
+}
+
+.animatereverse{
+	animation-name: opacityslide;
+	animation-duration: 1s;
 }
 
 .outyellow {
