@@ -31,12 +31,12 @@ function animationClick(element, animation){
       window.setTimeout( function(){
           element.removeClass(' animate ');
 		  document.body.classList.add("outyellow"); 
-		  c1.style.display='none';
-		  c2.style.display='none';
-		  c3.style.display='none';
-		  c4.style.display='none';
-		  c5.style.display='none';
-		  c6.style.display='none';
+		  c1.addClass('opacityslide');
+		  c2.addClass('opacityslide');
+		  c3.addClass('opacityslide');
+		  c4.addClass('opacityslide');
+		  c5.addClass('opacityslide');
+		  c6.addClass('opacityslide');
 	          bhome.style.display='block';
       }, 1000);
     }
