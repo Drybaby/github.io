@@ -17,13 +17,6 @@ outcyan.style.display="none";
 outpink.style.display="none";
 
 function animationClick(element, animation){
-	var c1 = document.getElementById("circle1");
-	var c2 = document.getElementById("circle2");
-	var c3 = document.getElementById("circle3");
-	var c4 = document.getElementById("circle4");
-	var c5 = document.getElementById("circle5");
-	var c6 = document.getElementById("circle6");
-
     element = $(element);
     element.click(
     function() {
@@ -31,12 +24,10 @@ function animationClick(element, animation){
       window.setTimeout( function(){
           element.removeClass(' animate ');
 		  document.body.classList.add("outyellow"); 
-		  c1.classList.add('opacityslide');
-		  c2.classList.add('opacityslide');
-		  c3.classList.add('opacityslide');
-		  c4.classList.add('opacityslide');
-		  c5.classList.add('opacityslide');
-		  c6.classList.add('opacityslide');
+	      		$('#circle1,#circle2,#circle3,#circle4,#circle5,#circle6')
+	      		.addClass('opacityslide')
+			.delay(1000)
+			.hide();
 	          bhome.style.display='block';
       }, 1000);
     }
