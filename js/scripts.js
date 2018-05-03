@@ -25,7 +25,7 @@ function animationClick(element, animation){
           element.removeClass(' animate ');
 		  document.body.classList.add("outyellow"); 
 	      		$('#circle1,#circle2,#circle3,#circle4,#circle5,#circle6')
-	      		.addClass('opacityslide')
+	      		.addClass('animateopacity')
 			.delay(1000)
 			.hide();
 	          bhome.style.display='block';
@@ -35,12 +35,7 @@ function animationClick(element, animation){
 };
 
 function animationRevClick(element){
-	var c1 = document.getElementById("circle1");
-	var c2 = document.getElementById("circle2");
-	var c3 = document.getElementById("circle3");
-	var c4 = document.getElementById("circle4");
-	var c5 = document.getElementById("circle5");
-	var c6 = document.getElementById("circle6");
+
 	element = $(element);
 	var butt = document.getElementById("backbutton");
 	element.click(
