@@ -39,9 +39,7 @@ function animationRevClick(element){
 	element = $(element);
 	var butt = document.getElementById("backbutton");
 	element.click(
-	function(){
-		c1.style.display='block';
-		c1.classList.add("animateback");
+	function() {
 		$('#circle1,#circle2,#circle3,#circle4,#circle5,#circle6')
 	      		.addClass('animateback');
 		bhome.style.display="none";
@@ -51,7 +49,7 @@ function animationRevClick(element){
 		window.setTimeout(function(){
 			document.body.classList.remove("outyellow"); 
 			$('#circle2,#circle3,#circle4,#circle5,#circle6')
-	      		.addClass('animateback')
+	      		.removeClass('animateback')
 			.delay(1000)
 			.show();
 			
