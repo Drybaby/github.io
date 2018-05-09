@@ -42,17 +42,18 @@ function animationRevClick(element){
 	function(){
 		c1.style.display='block';
 		c1.classList.add("animateback");
+		$('#circle1,#circle2,#circle3,#circle4,#circle5,#circle6')
+	      		.addClass('animateback');
 		bhome.style.display="none";
 		window.setTimeout(function(){
 			c1.style.display='block';
 		}, 1500);
 		window.setTimeout(function(){
 			document.body.classList.remove("outyellow"); 
-			c2.style.display="block";
-			c3.style.display="block";
-			c4.style.display="block";
-			c5.style.display="block";
-			c6.style.display="block";
+			$('#circle2,#circle3,#circle4,#circle5,#circle6')
+	      		.addClass('animateback')
+			.delay(1000)
+			.show();
 			
 		}
 
