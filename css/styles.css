@@ -1,0 +1,145 @@
+			#main div{
+				border:solid 1px #ccc;
+				display:inline;
+				position:absolute;
+				transition:all .5s ease;
+				padding:0px;				
+			}
+			#main div img{
+				border-top:solid 15px #fff;
+				border-left:solid 15px #fff;
+				border-right:solid 15px #fff;
+				border-bottom:solid 60px #fff;
+				width:350px;
+				margin-bottom:-4px;
+			}
+			
+			#secondarywrapper {
+				
+			}
+			#splash {
+				
+			}
+			
+			body {
+				background-color: black;
+			}
+			
+			#img1{
+				top:400px;
+				left:900px;
+				transform:rotate(40deg);
+				box-shadow: 30px 30px 30px grey;
+			}
+			#img2{
+				top:100px;
+				left:600px;
+				transform:rotate(-40deg);
+				box-shadow: 30px 30px 30px grey;
+			}
+			#img3{
+				top:400px;
+				left:500px;
+				transform:rotate(-120deg);
+				box-shadow: 30px 30px 30px grey;
+			}
+			#img4{
+				top:100px;
+				left:1000px;
+				transform:rotate(60deg);
+				box-shadow: 30px 30px 30px grey;
+			}
+			
+			#img1:hover{
+				top:400px;
+				left:900px;
+				transform:rotate(0deg) scale(1.5);
+				z-index:100;
+			}
+			#img2:hover{
+				top:100px;
+				left:600px;
+				transform:rotate(0deg) scale(1.5);
+				z-index:100;
+			}
+			#img3:hover{
+				top:400px;
+				left:500px;
+				transform:rotate(0deg) scale(1.5);
+				z-index:100;
+			}
+			#img4:hover{
+				top:100px;
+				left:1000px;
+				transform:rotate(0deg) scale(1.5);
+				z-index:100;
+			}
+			
+			#logomain {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 7%;
+			}
+			#logosecond {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 7%;
+			}
+			
+			#detailswrapper {
+				color: black;
+				opacity: 0.2;
+			}
+			
+			#mainImg {
+				width: 75%;
+				position: static;
+			}
+			
+			#sidePanel{
+				position: fixed;
+				height: 100%;
+				width: 25%;
+				right: 0;
+				top: 0;
+				border: red 2px solid;
+			}
+			
+			#sidePanelImg1 {
+				margin-top: 5%;
+				margin-left: 20%;
+				height: 33%;
+				border-bottom: red 2px solid;
+			}
+			
+			#sidePanelImg2 {
+				height: 33%;
+				margin-left: 20%;
+				border-bottom: red 2px solid;
+			}
+			
+			#sidePanelImg3 {
+				height: 33%;
+				margin-left: 20%;
+				border-bottom: red 2px solid;
+			}
+			
+			#mainPicture {
+				margin-left: 14%;
+				margin-top: 5%;
+			}
+			.obfuscator {
+				display: none;
+			}
+			
+			@keyframes blowOutAnimation {
+				to {
+				transform: scale(3);
+			}
+
+			.blowOut {
+				transform: scale(5);
+				transition: transform 1s;
+			}
