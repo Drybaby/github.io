@@ -57,8 +57,7 @@ $(function() {
 		$('#img2').transition({opacity: 0}, '100' ,'snap');
 		$('#img3').transition({opacity: 0}, '100' ,'snap');
 		$('#img4').transition({opacity: 0}, '100' ,'snap');
-	    	$("body").css("background-color","black");
-	    	$("body").css("opacity","0.6");
+	    	$("body").css("background-color":"black","opacity":"0.6");
 		$('#detailswrapper').fadeIn("slow");
 		
     });
