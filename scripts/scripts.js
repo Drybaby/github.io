@@ -1,6 +1,6 @@
 $(function() {
 $('#secondarywrapper').hide();
-$('#detailsywrapper').hide();
+$('#detailswrapper').hide();
 });
 
 $(function() {
