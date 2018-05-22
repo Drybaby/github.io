@@ -19,7 +19,7 @@ $(function() {
 		$('#img2').transition({opacity: 0}, '100' ,'snap');
 		$('#img3').transition({opacity: 0}, '100' ,'snap');
 		$('#img4').transition({opacity: 0}, '100' ,'snap');
-	    	$('detailswrapper').fadeIn("slow");
+	    	$('#detailswrapper').fadeIn("slow");
 		
 		
     });
@@ -33,7 +33,7 @@ $(function() {
 		$('#img2').transition({opacity: 0}, '100' ,'snap');
 		$('#img3').transition({opacity: 0}, '100' ,'snap');
 		$('#img4').transition({opacity: 0}, '100' ,'snap');
-		$('detailswrapper').fadeIn("slow");
+		$('#detailswrapper').fadeIn("slow");
 		
     });
 }); 
@@ -45,7 +45,7 @@ $(function() {
 		$('#img2').transition({opacity: 0}, '100' ,'snap');
 		$('#img3').transition({opacity: 0}, '100' ,'snap');
 		$('#img4').transition({opacity: 0}, '100' ,'snap');
-		$('detailswrapper').fadeIn("slow");
+		$('#detailswrapper').fadeIn("slow");
 		
     });
 }); 
@@ -57,7 +57,7 @@ $(function() {
 		$('#img2').transition({opacity: 0}, '100' ,'snap');
 		$('#img3').transition({opacity: 0}, '100' ,'snap');
 		$('#img4').transition({opacity: 0}, '100' ,'snap');
-		$('detailswrapper').fadeIn("slow");
+		$('#detailswrapper').fadeIn("slow");
 		
     });
 }); 
