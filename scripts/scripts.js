@@ -4,7 +4,7 @@ $('#detailswrapper').hide();
 });
 
 $(function() {
-    $(document).click(function() {
+    $('#splash').click(function() {
         $('#splash').fadeOut("slow");
 		$("body").css("background-color","white");
 		$("#secondarywrapper").fadeIn("slow");
