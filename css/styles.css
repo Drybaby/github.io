@@ -1,17 +1,9 @@
-			#main div{
-				border:solid 1px #ccc;
+						#main div{
+				
 				display:inline;
 				position:absolute;
 				transition:all .5s ease;
 				padding:0px;				
-			}
-			#main div img{
-				border-top:solid 15px #fff;
-				border-left:solid 15px #fff;
-				border-right:solid 15px #fff;
-				border-bottom:solid 60px #fff;
-				width:350px;
-				margin-bottom:-4px;
 			}
 			
 			#secondarywrapper {
@@ -24,57 +16,71 @@
 			body {
 				background-color: black;
 			}
-			
-			#img1{
-				top:400px;
-				left:900px;
-				transform:rotate(40deg);
-				box-shadow: 30px 30px 30px grey;
-			}
-			#img2{
-				top:100px;
-				left:600px;
-				transform:rotate(-40deg);
-				box-shadow: 30px 30px 30px grey;
-			}
-			#img3{
-				top:400px;
-				left:500px;
-				transform:rotate(-120deg);
-				box-shadow: 30px 30px 30px grey;
-			}
-			#img4{
-				top:100px;
-				left:1000px;
-				transform:rotate(60deg);
-				box-shadow: 30px 30px 30px grey;
+			.polaroid{
+				background-color: grey;
+				width: 250px;
+				height: 220px;
+				margin-left: 5%;
+				margin-right: 3%;
+				margin-top: 4%;
+				border:solid 1px #ccc;
 			}
 			
-			#img1:hover{
-				top:400px;
-				left:900px;
-				transform:rotate(0deg) scale(1.5);
-				z-index:100;
-			}
-			#img2:hover{
-				top:100px;
-				left:600px;
-				transform:rotate(0deg) scale(1.5);
-				z-index:100;
-			}
-			#img3:hover{
-				top:400px;
-				left:500px;
-				transform:rotate(0deg) scale(1.5);
-				z-index:100;
-			}
-			#img4:hover{
-				top:100px;
-				left:1000px;
-				transform:rotate(0deg) scale(1.5);
-				z-index:100;
+			.frame{
+				width: 280px;
+				height: 300px;
+				display:inline;
+				position:absolute;
+				transition:all .5s ease;
+				padding:0px;
+				background-color: white;
+				box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.3);
+				border:solid 1px #ccc;
 			}
 			
+			#product1{
+				top: 15%;
+				right: 35%;
+				transform: rotate(30deg);
+			}
+			#product2{
+				top: 18%;
+				right: 55%;
+				transform: rotate(-20deg);
+			}
+			#product3{
+				top: 35%;
+				right: 45%;
+				transform: rotate(10deg);
+			}
+			#product4{
+				top: 40%;
+				right: 60%;
+				transform: rotate(-10deg);
+			}
+			#product5{
+				top: 60%;
+				right: 40%;
+				transform: rotate(60deg);
+			}
+			#product6{
+				top: 40%;
+				right: 28%;
+				transform: rotate(-80deg);
+			}
+			#product1:hover, #product2:hover, #product3:hover, #product4:hover, #product5:hover, #product6:hover{
+				transform: rotate(0deg);
+				transform: scale(1.5);
+			}
+
+			.detailsBtn{
+				height: 50px;
+				width: 200px;
+				position: absolute;
+				margin-top: 80%;
+				margin-left: 14%;
+				
+			}
 			#logomain {
 				display: block;
 				margin-left: auto;
@@ -88,56 +94,27 @@
 				margin-top: 7%;
 			}
 			
-			
-			}
-			
-			#mainImg {
-				width: 75%;
-				position: static;
-			}
-			
-			#sidePanel{
-				position: fixed;
-				height: 100%;
-				width: 25%;
-				right: 0;
-				top: 0;
-				border: red 2px solid;
-			}
-			
-			#sidePanelImg1 {
-				margin-top: 5%;
-				margin-left: 20%;
-				height: 33%;
-				border-bottom: red 2px solid;
-			}
-			
-			#sidePanelImg2 {
-				height: 33%;
-				margin-left: 20%;
-				border-bottom: red 2px solid;
-			}
-			
-			#sidePanelImg3 {
-				height: 33%;
-				margin-left: 20%;
-				border-bottom: red 2px solid;
-			}
-			
-			#mainPicture {
-				margin-left: 14%;
-				margin-top: 5%;
-			}
-			.obfuscator {
-				display: none;
-			}
-			
-			@keyframes blowOutAnimation {
+			@keyframes animateOne {
 				to {
-				transform: scale(3);
+					top: 33%;
+					right: 40%;
+					z-index: 100;
+				}
 			}
-
-			.blowOut {
-				transform: scale(5);
-				transition: transform 1s;
+			#p1,#p2,#p3,#p4,#p5,#p6{
+				background-image: url("https://cdn.patchcdn.com/users/52715/2012/08/T800x600/3c6870fdd85c30fd14a91f6d5eda4cce.jpg");
+				background-position: center;
+				background-size: 300px 200px;
+			}
+			.animateCenter{
+				animation-name: animateOne;
+				animation-duration: 1s;
+				animation-fill-mode: forwards;
+			}
+			
+			.animateCenterRev{
+				animation-name: animateOne;
+				animation-duration: 1s;
+				animation-fill-mode: forwards;
+				animation-direction: reverse;
 			}
