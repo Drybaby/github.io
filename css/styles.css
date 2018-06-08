@@ -1,4 +1,4 @@
-						#main div{
+			#main div{
 				
 				display:inline;
 				position:absolute;
@@ -35,44 +35,54 @@
 				padding:0px;
 				box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.3);
 				border:solid 1px #ccc;
-				background-image: url("https://i.imgur.com/sIDkjOm.png");
 			}
 			
 			#product1{
 				top: 15%;
 				right: 35%;
 				transform: rotate(30deg);
+				background-image: url("https://cdn.discordapp.com/attachments/437028581365776401/454438691847536661/pf-1.png");
+				background-size:cover;
 			}
 			#product2{
 				top: 18%;
 				right: 55%;
 				transform: rotate(-20deg);
+				background-image: url("https://cdn.discordapp.com/attachments/437028581365776401/454438714719076353/pf-2.png");
+				background-size:cover;
 			}
 			#product3{
 				top: 35%;
 				right: 45%;
 				transform: rotate(10deg);
+				background-image: url("https://cdn.discordapp.com/attachments/437028581365776401/454438736768270337/pf-3.png");
+				background-size:cover;
 			}
 			#product4{
 				top: 40%;
 				right: 60%;
 				transform: rotate(-10deg);
+				background-image: url("https://cdn.discordapp.com/attachments/437028581365776401/454438745572114432/pf-4.png");
+				background-size:cover;
 			}
 			#product5{
 				top: 60%;
 				right: 40%;
 				transform: rotate(60deg);
+				background-image: url("https://cdn.discordapp.com/attachments/437028581365776401/454438747853815808/pf-5.png");
+				background-size:cover;
 			}
 			#product6{
 				top: 40%;
 				right: 28%;
 				transform: rotate(-80deg);
+				background-image: url("https://cdn.discordapp.com/attachments/437028581365776401/454438747853815808/pf-5.png");
+				background-size:cover;
 			}
 			#product1:hover, #product2:hover, #product3:hover, #product4:hover, #product5:hover, #product6:hover{
 				transform: rotate(0deg);
 				transform: scale(1.5);
 			}
-
 			.detailsBtn{
 				height: 50px;
 				width: 200px;
@@ -108,7 +118,7 @@
 			}
 			.animateCenter{
 				animation-name: animateOne;
-				animation-duration: 1s;
+				animation-duration: 0.8s;
 				animation-fill-mode: forwards;
 			}
 			
