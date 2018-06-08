@@ -5,24 +5,37 @@ $('.detailsBtn').hide();
 });
 
 $(function() {
-    $('#splashScreen').click(function() {
+    $('#splashScreen').one("click", (function() {
         $('#splashScreen').fadeOut("slow");
 		$("body").css("background-color","white");
 		$("#secondarywrapper").fadeIn("slow");
-    });
+    }));
 }); 
-
 
 $(function(){
 	$('.frame').click(function(){
+		if($(this).hasClass("animateCenter")){
+			$(this).removeClass("animateCenter");
+			$(this).addClass("animateCenterRev");
+			$(this).transition({scale: 1},500,'ease');
+			$('.detailsBtn').fadeOut;
+		}
+		else {
 		$(this).transition({scale: 3},500,'ease');
 		$(this).addClass("animateCenter");
-		$('.detailsBtn').fadeIn("slow");
+		$('.detailsBtn').fadeIn;}
+		
 	});
-	
 });
 
 
+$(function(){
+		$(this).click(function(){
+			$(this).transition({scale: 3},500,'ease');
+			$(this).addClass("animateCenterRev");
+			$('.detailsBtn').fadeOut("slow");
+		});
+	});
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
   if (window.ShopifyBuy) {
@@ -82,6 +95,12 @@ $(function(){
           "margin-left": "0",
         }
       },
+	  "button":{
+		  "background-color": "black",
+		  ":hover": {
+			  "background-color": "grey"
+		  },
+	  },
       "compareAt": {
         "font-size": "12px"
       }
