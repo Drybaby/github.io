@@ -2,7 +2,7 @@
 				
 				display:inline;
 				position:absolute;
-				transition:all .5s ease;
+				
 				padding:0px;				
 			}
 			
@@ -67,7 +67,7 @@
 				height: 300px;
 				display:inline;
 				position:absolute;
-				transition:all .5s ease;
+				transition:all .5s linear;
 				padding:0px;
 				box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.3);
 				border:solid 1px #ccc;
@@ -118,6 +118,7 @@
 			#product1:hover, #product2:hover, #product3:hover, #product4:hover, #product5:hover, #product6:hover{
 				transform: rotate(0deg);
 				transform: scale(1.5);
+				transition:all .5s ease;
 			}
 			.detailsBtn{
 				height: 50px;
@@ -158,7 +159,7 @@
 				top: 33% !important;
 				right: 40% !important;
 				z-index: 100;
-				transition:all 0.5s ease;
+				transition:all 0.5s linear;
 }
 			#clickOut {
 				height: 100vh;
