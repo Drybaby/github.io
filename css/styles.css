@@ -1,0 +1,417 @@
+#btscollagecontainer h1 {
+	text-align: center!important;
+	margin-bottom: 40px;
+}
+
+#myVideo,#myVideo2 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+#btscollagecontainer{
+	width:90%;
+}
+#lc1 img{
+	width: 25%;
+	margin-top: 5%;
+}
+#lc2 img{
+	width: 20%;
+	margin-left: 20%;
+	margin-top: -25%;
+}
+#lc3 img{
+	width: 25%;
+	margin-left: 45%;
+	margin-top: -40%;
+}
+#lc4 video{
+	width: 26%;
+	position: absolute;
+	top: 20%;
+	right: 29%;
+}
+#lc5 img{
+	width: 25%;
+	margin-left: 105%;
+	margin-top: -30%;
+	z-index: 5;
+}
+
+#lc6 img{
+	width: 20%;
+	margin-top:-20%;
+	margin-left: 10%;
+}
+#lc7 img{
+	width: 25%;
+	margin-top:-20%;
+	margin-left: 25%;
+}
+#lc8 img{
+	width: 35%;
+	margin-top:-25%;
+	margin-left: 50%;
+}
+#btslocations{
+	width: 80%;
+	margin: auto;
+}
+
+#passform{
+	width: 20%;
+	position: absolute;
+	top: 30%;
+	right: 40%;
+}
+#logomain{
+	position: absolute;
+	bottom: 60%;
+	margin-bottom: 20%;
+	margin-left: 8%;
+}
+#passform label{
+	margin-left: 37%;
+}
+
+#passenter{
+	margin-top: 5%;
+	margin-left: 46%;
+}
+#passcheck{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000000;
+    z-index: 100001;
+}
+#splash,#splash2{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51,51,51,0.7);
+    z-index: 100000;
+}
+
+#splash2{
+	display: none;
+}
+#shopitem1{
+	background-image: url("../shopitems/thumbs/oddtop.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem2{
+	background-image: url("../shopitems/thumbs/oddshirt.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem3{
+	background-image: url("../shopitems/thumbs/oddcroppedhoodie.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem4{
+	background-image: url("../shopitems/thumbs/oddhoodie.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem5{
+	background-image: url("../shopitems/thumbs/oddblackcape.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem6{
+	background-image: url("../shopitems/thumbs/oddwhitejacket.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem7{
+	background-image: url("../shopitems/thumbs/oddcoat.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem8{
+	background-image: url("../shopitems/thumbs/oddjacket.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem9{
+	background-image: url("../shopitems/thumbs/oddshorts.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem10{
+	background-image: url("../shopitems/thumbs/oddjogger.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#shopitem11{
+	background-image: url("../shopitems/thumbs/oddpants.jpg");
+	height: 240px;
+	width: 240px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#secondarynnavbar2 {
+        display: none;
+	}
+
+#btscollagecontainerM{
+		display: none;
+	}
+	
+.collagePhotoM img{
+		width: 330px;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 10px;
+		margin-left: 0;
+}
+
+#myModal{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+.collagePhotoM video{
+		width: 340px;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 0;
+		margin-left: 0;
+		display: block;
+}
+.collageContainerMobile{
+		display: none;
+}
+@media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    #secondarynnavbar {
+        display: none;
+    }
+	#secondarynnavbar2 {
+        display: block;
+    }
+	#btscollage{
+		width: 900px;
+	}
+	
+	.collageContainer{
+		display: none;
+	}
+	.collageContainerMobile{
+		display: block;
+	}
+	
+	.collagePhotoM img{
+		width: 800px;
+	}
+	.collagePhotoM video{
+		width: 800px;
+	}
+	#btscollagecontainer{
+		display: none;
+		
+	}#btscollagecontainerM{
+		display: block;
+	}
+	.locationcollageM img{
+		width: 380px;
+	}
+	.locationcollageM video{
+		width: 380px;
+		margin-bottom: 0;
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.collagePhotoM img{
+		width: 400px;
+	}
+	.collagePhotoM video{
+		width: 400px;
+	}
+	#splash{
+		display: none;
+	}
+	#splash2{
+		display: block;
+	}
+	.shopTitles{
+	margin-left: -30px;
+	}
+	
+#impressumtext h1{
+	font-size:7vw;
+}
+
+#impressumtext h2{
+	font-size:5vw;
+}
+
+#impressumtext p{
+	font-size:4vw;
+}
+}
+
+@media only screen and (max-width: 380px){
+	.collagePhotoM img{
+		width: 340px;
+	}
+	.collagePhotoM video{
+		width: 340px;
+	}	
+}
+@media only screen and (max-width: 320px){
+	.collagePhotoM img{
+		width: 300px;
+	}
+	.collagePhotoM video{
+		width: 300px;
+	}	
+}
+
+
+.customselect{
+	background-color: black;
+}
+
+#mainPhoto{
+	width: 90%;
+}
+#cp1,#bulletin2{
+	width: 320px;
+	height: 160px;
+}
+#cp2,#bulletin2{
+	width: 400px;
+	height: 230px;
+	z-index: 3;
+}
+#cp3{
+	width: 360px;
+	height: 240px;
+	margin-bottom: -50px;
+	z-index: 1;
+}
+#cp4{
+	width: 420px;
+	height: 200px;
+	margin-top: 50px;
+}
+#cp5{
+	width: 160px;
+	height: 300px;
+	margin-top: -90px;
+}
+#cp6{
+	width: 250px;
+	height: 300px;
+	margin-left:150px;
+	margin-top: -50px;
+	z-index: 1;
+}
+#cp7{
+	width: 600px;
+	height: 300px;
+	margin-top: -20px;
+}
+#cp7b img{
+	margin-top: -20px;
+	margin-left: -350px;
+}
+#cp8{
+	width: 100px;
+	height: 300px;
+	margin-top: -120px;
+	margin-left: 20px;
+	z-index: 5;
+}
+#cp9{
+	width: 100px;
+	height: 300px;
+	margin-top: -80px;
+	margin-left: 300px;
+	z-index: 5;
+}
+#cp10{
+	width: 100px;
+	height: 300px;
+	margin-top: -100px;
+	margin-left: 300px;
+	z-index: 6;
+}
+#cp11{
+	width: 100px;
+	height: 300px;
+	margin-top: -200px;
+	z-index: 6;
+}
+#bulletin3{
+	margin-top: -80px;
+}
+#cp12{
+	width: 100px;
+	height: 300px;
+	margin-top: -120px;
+	margin-left: 300px;
+	z-index: 6;
+}
+
+#cp13{
+	width: 100px;
+	height: 300px;
+	margin-top: -80px;
+	margin-left: 400px;
+	z-index: 6;
+}
+
+.shopTitles{
+	white-space: nowrap;
+}
+
+#shopContainer a{
+	text-decoration: none !important;
+	color: black !important;
+}
